@@ -1,9 +1,9 @@
-const message = window.prompt("give me a number");
-        const number = Number(message);
-        let message2 = "";
-        if(isNaN(message)){
-           message2 = "Please enter #";
-        } else{
-           message2 = `number is ${message *2}`;
-        }
-        window.alert(message2)
+const message = window.prompt('give me a number');
+const number = Number(message);
+let message2 = '';
+if (isNaN(message)) {
+  message2 = 'Please enter #';
+} else {
+  message2 = `my favorite number is ${69}`;
+}
+window.alert(message2);
