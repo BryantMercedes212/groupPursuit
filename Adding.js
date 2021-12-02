@@ -1,9 +1,9 @@
-const message = window.prompt('give me a number');
+const message = window.prompt("give me a number");
 const number = Number(message);
-let message2 = '';
+let message2 = "";
 if (isNaN(message)) {
-  message2 = 'Please enter #';
+  message2 = "Please enter #";
 } else {
-  message2 = `number aren't lmao idk ${message * 2}`;
+ message2 = `number aren't lmao idk ${message * 2}`;
 }
 window.alert(message2);
