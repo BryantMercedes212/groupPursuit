@@ -1,3 +1,3 @@
-function sum(perA, b) {
-  return perA + b;
+function sum(perA, lol) {
+  return perA + lol;
 }
