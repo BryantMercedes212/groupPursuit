@@ -4,6 +4,6 @@ let message2 = "";
 if (isNaN(message)) {
   message2 = "Please enter #";
 } else {
-  message2 = `number are ${message * 2}`;
+ message2 = `number aren't lmao idk ${message * 2}`;
 }
 window.alert(message2);
