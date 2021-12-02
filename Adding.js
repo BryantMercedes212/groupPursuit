@@ -4,6 +4,6 @@ const message = window.prompt("give me a number");
         if(isNaN(message)){
            message2 = "Please enter #";
         } else{
-           message2 = `number is ${message *2}`;
+           message7 = `number is ${message *2}`;
         }
         window.alert(message2)
